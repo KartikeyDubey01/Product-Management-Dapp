@@ -1,4 +1,4 @@
-import SupplyChain from "./contracts/SupplyChain.json";
+import SupplyChain from "./contracts/SupplyChain.json"; 
 
 const getContract = async (web3) => {
   const networkId = await web3.eth.net.getId();

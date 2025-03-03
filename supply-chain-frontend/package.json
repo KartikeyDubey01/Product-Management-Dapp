@@ -2,6 +2,7 @@
   "name": "supply-chain-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://KartikeyDubey01.github.io/Product-Management-Dapp",
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
@@ -22,8 +23,11 @@
     "yup": "^1.4.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "copy-contracts": "cpy \"../build/contracts/*.json\" ./src/contracts --parents",
+    "start": "npm run copy-contracts && react-scripts start",
+    "build": "npm run copy-contracts && react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -47,6 +51,8 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "cpy-cli": "^5.0.0",
+    "gh-pages": "^6.3.0",
     "nodemon": "^3.1.9"
   }
 }
