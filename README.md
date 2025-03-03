@@ -137,7 +137,7 @@ Expected Output: ✔ Contract deployment ✔ Product addition works correctly
 
 ## Demo
 
-A demo video showcasing the working application can be found [here] `https://drive.google.com/drive/u/0/folders/1iJDpS0Q9p33kM57Ba7hZjGPRssusrd_S`
+A demo video showcasing the working application can be found [`https://drive.google.com/drive/u/0/folders/1iJDpS0Q9p33kM57Ba7hZjGPRssusrd_S`]
 
 ---
 
