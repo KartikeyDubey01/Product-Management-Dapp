@@ -141,13 +141,4 @@ A demo video showcasing the working application can be found here https://drive.
 
 ---
 
-## Judging Criteria & How We Meet Them
-
-✅ **Innovation & Creativity** - Uses blockchain for transparent and tamper-proof supply chain tracking.\
-✅ **Technical Complexity** - Implements smart contracts, Web3.js integration, and Ethereum transactions.\
-✅ **User Experience** - Clean React UI, easy MetaMask integration.\
-✅ **Practical Application** - Can be scaled for real-world supply chain transparency.\
-✅ **Code Quality & Documentation** - Fully documented with clear comments and a structured project setup.
-
-🎉 Thank you for considering our project! We look forward to the finals! 🚀
 
